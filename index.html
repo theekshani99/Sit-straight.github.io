@@ -141,7 +141,7 @@ https://templatemo.com/tm-562-space-dynamic
 <div id="label-container"></div>
 <br><br><br><br>
 <audio id="Blackberry SMS Tone">
-  <source src="file:///C:/Users/DELL/Downloads/templatemo_562_space_dynamic/Blackberry%20SMS%20Tone.mp3" type="audio/mpeg">
+  <source src="Blackberry SMS Tone.mp3" type="audio/mpeg">
   
 </audio>
 
@@ -224,7 +224,7 @@ https://templatemo.com/tm-562-space-dynamic
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
           // don't play audio when head's neutral with probability >= 75%
-			if (prediction[0].probability.toFixed(2) >= 0.55)
+			if (prediction[0].probability.toFixed(2) >= 0.75)
 				pauseAud();
 				
 			else
